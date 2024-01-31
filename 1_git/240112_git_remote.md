@@ -11,7 +11,7 @@
 
 * 로컬 저장소는 원격저장소와 자동 동기화 되지 않는다. (어림도 없는 소리다..)
     * 항상 pull 하는 것을 생활화 하자
-    * 추천) pull - 작업 - add - commit - push
+    * 추천: pull - 작업 - add - commit - push
 
 * pull vs. clone
     * pull : git 저장소가 로컬에 이미 있을 때
