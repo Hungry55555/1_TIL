@@ -14,6 +14,7 @@ while q:
     q.pop(0)
 print('end')
 
+
 dq = deque()
 for i in range(200000):
     dq.append(i)
