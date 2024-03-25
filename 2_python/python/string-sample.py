@@ -7,7 +7,8 @@ area = 'living room'
 
 # Debugging roaches 13 living room
 print(f'Debugging {bugs} {counts} {area}')
-
+my_l=[]
+my_l.insert()
 my_str = 'hello'
 
 # my_str[1] = 'z'
