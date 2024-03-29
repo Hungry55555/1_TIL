@@ -14,5 +14,8 @@
     <mapping directory="$PROJECT_DIR$/7_django/240328/django_hw_7_2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/7_django/240328/django_hw_7_4" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/7_django/240328/django_ws_7_a" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/7_django/240328/django_ws_7_b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/7_django/240329/django_hw_8_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/7_django/240329/django_hw_8_4" vcs="Git" />
   </component>
 </project>
