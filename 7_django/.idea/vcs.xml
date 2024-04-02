@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/240328/django_hw_7_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/240328/django_hw_7_4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/240328/django_ws_7_a" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/240328/django_ws_7_b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/240329/django_hw_8_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/240329/django_hw_8_4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day1/django_hw_4_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day1/django_ws_4_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day1/django_ws_4_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day1/django_ws_4_3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day1/django_ws_4_4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day1/django_ws_4_5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day1/django_ws_4_a" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day1/django_ws_4_b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day1/django_ws_4_c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day2/django_hw_5_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day2/django_hw_5_4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day2/django_ws_5_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day2/django_ws_5_a" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day2/django_ws_5_b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day2/django_ws_5_c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/django_hw_6_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/django_hw_6_4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/django_ws_6_a" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/django_ws_6_b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/django_ws_6_c" vcs="Git" />
+  </component>
+</project>
