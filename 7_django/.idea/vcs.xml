@@ -31,8 +31,26 @@
     <mapping directory="$PROJECT_DIR$/day3/django_hw_6_4" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/day3/django_ws_6_1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/day3/django_ws_6_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/django_ws_6_3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/django_ws_6_4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day3/django_ws_6_5" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/day3/django_ws_6_a" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/day3/django_ws_6_b" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/day3/django_ws_6_c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day4/django_ws_7_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day4/django_ws_7_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day4/django_ws_7_b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day4/django_ws_7_c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/django_ws_8_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/django_ws_8_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/django_ws_8_3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/django_ws_8_4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/django_ws_8_5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/django_ws_8_a" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/django_ws_8_b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day5/django_ws_8_c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day6/django_ws_9_a" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day6/django_ws_9_b" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day6/django_ws_9_c" vcs="Git" />
   </component>
 </project>
