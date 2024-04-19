@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="sysin" value="import sys&#10;sys.stdin = open('input.txt')&#10;&#10;T = int(input())&#10;for tc in range(1, T+1):&#10;    pass" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
