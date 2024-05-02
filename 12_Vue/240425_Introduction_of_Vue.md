@@ -309,3 +309,54 @@ const {id} = object
 * 일반적인 변수가 아닌 객체 데이터 타입으로 사용하는 이유는?
 * Vue는 템플릿에서 ref를 사용하고 나중에 ref의 값을 변경하면 자동으로 변경 사항을 감지하고 그에 따라 DOM을 업데이트 함
 ("의존성 추적 기반의 반응형 시스템")
+* Vue는 렌더링 중에 사용된 모든 ref를 추적하며, 나중에 ref가 변경되면 이를 추적하는 구성 요소에 대해 다시 렌더링
+* 이를 위해서 참조 자료형의 객체 타입으로 구현한 것
+-> JavaScript에서는 일반 변수의 접근 또는 변형을 감지할 방법이 없기 때문
+-> https://vuejs.org/guide/essentials/reactivity-fundamentals.html#why-refs
+
+### 반응형 변수 vs. 일반 변수
+```html:ref-vs-variable.html
+<div id="app">
+    <p>반응성 변수: {{ reactiveValue }}</p>
+    <p>일반 변수: {{ normalValue }}</p>
+    <button v-on:click="updateValues">값 업데이트</button>
+</div>
+```
+```js
+const app = createApp({
+    setup() {
+        const reactiveValue = ref(0)
+        let normalValue = 0
+        const updateValues = function () {
+            reactiveValue.value++
+            normalValue++
+
+        }
+        return {
+            reactiveValue,
+            normalValue,
+            updateValues
+        }
+    }
+})
+```
+![Alt text](image-10.png)
+
+### SEO (Search Engine Opimization)
+* google, bing과 같은 검색 엔진 등에 내 서비스나 제품 등이 효율적으로 검색 엔진에 노출되도록 개선하는 과정을 일컫는 작업
+* 정보의 대상은 주로 HTML에 작성된 내용
+* 검색
+    - 각 사이트가 운용하는 검색 엔진에 의해 이루어지는 작업
+* 검색 엔진
+    - 웹 상에 존재하는 가능한 모든 정보들을 긁어 모으는 방식으로 동작
+* 최근에는 SPA, 즉 CSR로 구성된 서비스의 비중이 증가
+* SPA 서비스도 검색 대상으로 넓히기 위해 JS를 지원하는 방식으로 발전하는 중
+
+### CSR & SSR
+* CSR과 SSR은 흑과 백이 아님
+* 애플리케이션의 목적, 규모, 성능 및 SEO 요구 사항에 따라 달라질 수 있음
+    -> 내 서비스에 적합한 렌더링 방식을 적절하게 활용할 수 있어야 함
+* SPA 서비스에서도 SSR을 지원하는 Framework가 발전하고 있음
+    - Vue의 Nuxt.js
+    - React의 Next.js
+    
