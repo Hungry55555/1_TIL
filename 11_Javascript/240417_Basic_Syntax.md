@@ -1,6 +1,8 @@
 # 변수
 ## 개요
-
+### JavaScript 문법 학습
+* ECMAScript 2015 (ES6) 이후의 명제를 따름
+* 권장 스타일 가이드: https://standardjs.com/rules-kokr.html
 ## 변수 선언 키워드
 ### 식별자(변수명) 작성 규칭
 * 반드시 문자, 달러('$') , 밑줄('_')fh tlwkr
@@ -8,15 +10,29 @@
 * 예약어 사용 불가 (ex) for, if, function 등
 
 ### 식별자(변수명) Naming case
-* 카멜 케이스(camelCase): 변수, 객ㅊ, 함수에 사용
+* 카멜 케이스(camelCase): 변수, 객체, 함수에 사용
     * 카멜 케이스: 단어 연결 시 첫글자는 소문자로 하지만 남은 단어의 첫글자는 대문자로 표기하는 규칙
 * 파스칼 케이스(PascalCase): 클래스, 생성자에 사용
-    * 파스칼 케이스: 
+    * 파스칼 케이스: 첫 단어의 첫 글자도 대문자로 표기하는 명명 규칙 (ex) MyClass, CalculateDiscountAmount
 * 대문자 스네이크 케이스(SNAKE_CASE): 상수(constants)에 사용 
 
 ### 변수 선언 키워드 3가지
 1. let
+* 블록 스코프(block scope)를 갖는 지역 변수를 선언
+* 재할당 가능
+* 재선언 불가능
+* ES6에서 추가
+```js
+let number = 10 // 1. 선언 및 초기값 할당
+number = 20 // 2. 재할당
+```
+```js
+let number = 10 // 1. 선언 및 초기값 할당
+let number = 20 // 2. 재선언 불가능
+```
+
 2. const
+* 블록 스코프를 갖는 지역 변수를 선언
 3. var
 # 데이터 타입
 ## 원시 자료형
